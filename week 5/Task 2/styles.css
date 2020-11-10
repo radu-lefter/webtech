@@ -1,0 +1,23 @@
+#button{
+    background-color: rgb(75, 219, 75);
+    width: 50%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: block;
+    margin: 0 auto;
+}
+
+#button:hover{
+    background-color: rgb(25, 179, 25);
+    color: white;
+}
+
+#contact label, #personal label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}

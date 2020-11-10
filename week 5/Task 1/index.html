@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student survey</title>
+    </head>
+    <body>
+       <h1>Studen survey</h1>
+       <form action="https://www.google.com/" method="post">
+           <p><label for="name">Name*:</label><input type="text" name="name" required></p>
+           <p><label for="email">Email*:</label><input type="email" name="email" required></p>
+           <p><label for="number">Number*:</label><input type="text" name="number" required></p>
+           <p>
+               <label for="year">What year are you in*:</label>
+               <select name="year" id="">
+                   <option value="select">select</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="4">4</option>
+               </select>
+           </p>
+           <p>Which electronic devices do you use?</p>
+           <p>
+               <input type="checkbox" name="electronic_device1" value="computer"><label for="electronic_device1">Computer</label><br>
+               <input type="checkbox" name="electronic_device2" value="ebook"><label for="electronic_device2">Ebook reader</label><br>
+               <input type="checkbox" name="electronic_device3" value="phone"><label for="electronic_device3">Smart phone</label><br>
+           </p>
+           <p>How many hours a day do you spend using electronic devices?</p>
+           <p>
+            <input type="radio" name="hours" value="one"><label for="one">1 hour</label><br>
+            <input type="radio" name="hours" value="two"><label for="two">2 hours</label><br>
+            <input type="radio" name="hours" value="three"><label for="three">3 hours +</label><br>
+           </p>
+           <p><label for="further_comments">Any other comments?</label><br><br><textarea name="further_comments" id="" cols="30" rows="7"></textarea></p>
+           <p><input type="submit" value="Submit"></p>
+       </form> 
+    </body>
+</html>
